@@ -11,4 +11,6 @@
 ```sh
 uv run bedrock/ocr_plain.py
 uv run bedrock/ocr_pdf2img.py
+
+uv run --env-file=openai/.env openai/ocr.py
 ```
